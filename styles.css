@@ -72,8 +72,7 @@ p {
     text-align: left;
     margin: 1.5rem;
     padding: 2rem;
-    width: 360px;
-    /* height: 250px; */
+    width: 380px;
     border-radius: 10px;
     background-color: white;
     margin-bottom: 20px;
@@ -88,7 +87,7 @@ p {
 }
 
 .card>p {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .image-div {
@@ -115,4 +114,81 @@ p {
 
 .div4 {
     border-color: var(--Blue);
+}
+
+@media screen and (max-width: 700px) {
+
+    .main-div {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1368px) {
+
+    .main-div {
+        flex-direction: column;
+    }
+
+    .div3 {
+        margin-top: 1rem;
+    }
+
+    .column2 {
+        margin: 0;
+    }
+
+    .div3 {
+        margin-top: 2.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 670px) {
+
+    body {
+        margin: 2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    body {
+        margin: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .text {
+        width: 100%;
+        font-size: 0.8rem
+    }
+
+    .p {
+        font-size: 0.8rem;
+    }
+
+    .card {
+        width: auto;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .div3 {
+        margin-top: 1rem;
+    }
 }
