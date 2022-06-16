@@ -15,8 +15,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-using-html-and-css-flexbox-ha_bmx44V9)
-- Live Site URL: [Live site](https://muazzy.github.io/huddle-landing-page/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/made-with-vanila-html-and-css-flexbox-and-media-quaries-7aVaa-FkjT)
+- Live Site URL: [Live site](https://muazzy.github.io/feature-section/)
 
 ### Built with
 
